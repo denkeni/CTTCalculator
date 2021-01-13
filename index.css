@@ -1,0 +1,17 @@
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.btn-primary {
+  background-color: #55832F;
+  border-color: #55832F;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #416523;
+  border-color: #416523;
+}
