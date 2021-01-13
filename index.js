@@ -57,7 +57,7 @@ var cttCalculator = (function () {
     var unit = document.getElementById("unit").value;
     alert("乾燥後重量：" + finalWeight.toFixed(2) + " " + unit + "\n"
         + "損失重量：" + lossWeight.toFixed(2) + " " + unit + "\n"
-        + "成品率：" + productRatio.toFixed(2) + " " + "%");
+        + "成品率：" + (productRatio * 100).toFixed(2) + " " + "%");
   }
 
   var calculateThree = function() {
